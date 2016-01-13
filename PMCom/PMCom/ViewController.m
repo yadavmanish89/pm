@@ -21,7 +21,7 @@
 }
 
 -(void)addMethod{
-    
+    NSLog(@"Pulkit");
 }
 
 - (void)didReceiveMemoryWarning {

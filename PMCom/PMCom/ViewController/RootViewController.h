@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  RootViewController.h
 //  PMCom
 //
 //  Created by Manish Yadav 01 on 1/13/16.
@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface RootViewController : UIViewController
 
 
 @end

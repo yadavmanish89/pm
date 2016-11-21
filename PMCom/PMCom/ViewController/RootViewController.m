@@ -1,19 +1,19 @@
 //
-//  ViewController.m
+//  RootViewController.m
 //  PMCom
 //
 //  Created by Manish Yadav 01 on 1/13/16.
 //  Copyright © 2016 pm. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "RootViewController.h"
 
-@interface ViewController (){
+@interface RootViewController (){
     NSString *newStr;
 }
 @end
 
-@implementation ViewController
+@implementation RootViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

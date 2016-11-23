@@ -12,6 +12,7 @@
 		694F7E7D1C46294C00ED76DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694F7E7B1C46294C00ED76DF /* Main.storyboard */; };
 		694F7E7F1C46294C00ED76DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 694F7E7E1C46294C00ED76DF /* Assets.xcassets */; };
 		694F7E821C46294C00ED76DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 694F7E801C46294C00ED76DF /* LaunchScreen.storyboard */; };
+		D38D75AD1DE630C900F06359 /* Dummy.json in Resources */ = {isa = PBXBuildFile; fileRef = D38D75AC1DE630C900F06359 /* Dummy.json */; };
 		D3B64DC41DE3A90A0094DB9E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B64DC31DE3A90A0094DB9E /* RootViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		694F7E7E1C46294C00ED76DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		694F7E811C46294C00ED76DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		694F7E831C46294C00ED76DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D38D75AC1DE630C900F06359 /* Dummy.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Dummy.json; sourceTree = "<group>"; };
 		D3B64DC21DE3A90A0094DB9E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		D3B64DC31DE3A90A0094DB9E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -65,6 +67,7 @@
 				D3B64DC11DE3A90A0094DB9E /* ViewController */,
 				694F7E801C46294C00ED76DF /* LaunchScreen.storyboard */,
 				694F7E831C46294C00ED76DF /* Info.plist */,
+				D38D75AC1DE630C900F06359 /* Dummy.json */,
 				694F7E721C46294C00ED76DF /* Supporting Files */,
 			);
 			path = PMCom;
@@ -146,6 +149,7 @@
 			files = (
 				694F7E821C46294C00ED76DF /* LaunchScreen.storyboard in Resources */,
 				694F7E7F1C46294C00ED76DF /* Assets.xcassets in Resources */,
+				D38D75AD1DE630C900F06359 /* Dummy.json in Resources */,
 				694F7E7D1C46294C00ED76DF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

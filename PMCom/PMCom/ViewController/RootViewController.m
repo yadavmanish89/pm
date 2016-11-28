@@ -18,7 +18,22 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    NSLog(@"viewDidLoad");
+}
+
+- (IBAction)buttonAction:(UIButton *)sender {
+    NSString *filePath = [[NSBundle mainBundle] pathForResource:@"Dummy" ofType:@"json"];
+    NSError * error;
+    
+    NSData* data = [NSData dataWithContentsOfFile:filePath];
+    NSDictionary *result = [NSJSONSerialization JSONObjectWithData:data options:kNilOptions error:&error];
+
+    NSArray *dataArr = [result objectForKey:@"country"];
+    for (NSDictionary *dict in dataArr) {
+        NSString *country = [dict objectForKey:@"country"];
+        NSString *city = [dict objectForKey:@"capital"];
+        NSLog(@"");
+    }
+    NSLog(@"");
 }
 
 - (void)didReceiveMemoryWarning {

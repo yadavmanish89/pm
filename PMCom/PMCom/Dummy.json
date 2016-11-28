@@ -1,0 +1,19 @@
+{
+"country":[
+           {
+            "country": "India",
+            "capital": "Delhi",
+            "map_image": "india_map"
+           },
+           {
+            "country": "USA",
+           "capital": "Washington",
+           "map_image": "usaa_map"
+           },
+           {
+            "country": "England",
+           "capital": "London",
+           "map_image": "england_map"
+           }
+        ]
+}
